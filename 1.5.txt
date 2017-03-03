@@ -1,0 +1,28 @@
+1.HADOOP IN LAYMAN TERMS
+ Hadoop is a free, Java-based programming framework that supports the processing of large data sets in a distributed    computing environment.
+ It is part of the Apache project sponsored by the Apache Software Foundation.
+ where this data comes from and why is this all so important suddenly? Well, some of the data has always been there -  weather information, scientific results, human genomic data, federal data, credit-card information, shopping  transactions, and so on. And with the social media revolution, a lot more is generated today by users such as you and me.  All our photos, tweets, blog posts, comments need to be persisted and almost instantaneously processed. With millions of  users, that translates to several petabytes of data. For storing and processing these data sets, companies had to build  new data platforms. 
+ “Hadoop” is the name of the toy elephant, belonging to the daughter of Doug Cutting – the Creator of Hadoop. So Doug  decided to name his software project after his daughters toy “Hadoop”. 
+2.COMPONENTS OF HADOOP FRAMEWORK
+1) Hadoop Common-
+
+Apache Foundation has pre-defined set of utilities and libraries that can be used by other modules within the Hadoop ecosystem. For example, if HBase and Hive want to access HDFS they need to make of Java archives (JAR files) that are stored in Hadoop Common.
+
+2) Hadoop Distributed File System (HDFS) -
+
+The default big data storage layer for Apache Hadoop is HDFS.
+ HDFS component creates several replicas of the data block to be distributed across different clusters for reliable and quick data access. HDFS comprises of 3 important components-NameNode, DataNode and Secondary NameNode.
+
+3) MapReduce
+MapReduce is a Java-based system created by Google where the actual data from the HDFS store gets processed efficiently. MapReduce breaks down a big data processing job into smaller tasks. MapReduce is responsible for the analysing large datasets in parallel before reducing it to find the results. In the Hadoop ecosystem, Hadoop MapReduce is a framework based on YARN architecture. 
+
+4)YARN
+
+YARN forms an integral part of Hadoop 2.0.YARN is great enabler for dynamic resource utilization on Hadoop framework as users can run various Hadoop applications without having to bother about increasing workloads.
+Key Benefits of Hadoop 2.0 YARN Component-
+
+It offers improved cluster utilization
+Highly scalable
+Beyond Java
+Novel programming models and services
+Agility
